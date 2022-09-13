@@ -1,0 +1,73 @@
+.App {
+  height: 100vh;
+}
+
+::-ms-reveal {
+  display: none !important;
+}
+
+/* additional style */
+.rs-picker-has-value .rs-btn .rs-picker-toggle-value,
+.rs-picker-has-value .rs-picker-toggle .rs-picker-toggle-value {
+  color: #00ac9f !important;
+}
+
+.rs-picker-toggle-textbox {
+  color: #00ac9f !important;
+}
+
+.rs-picker.rs-picker-focused,
+.rs-picker:not(.rs-picker-disabled):hover {
+  border-color: #00ac9f !important;
+}
+
+.loader-container {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .rs-picker-default:not(.rs-picker-disabled) .rs-btn-active,
+.rs-picker-default:not(.rs-picker-disabled) .rs-btn:focus,
+.rs-picker-default:not(.rs-picker-disabled) .rs-btn:hover,
+.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle-active,
+.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:focus,
+.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:hover {
+  border-color: #cc9933 !important;
+} */
+/* .css-1yog12j:checked + div,
+[data-css-1yog12j]:checked + div {
+  background-color: #cc9933;
+}
+
+.css-1yog12j:checked + div:hover,
+[data-css-1yog12j]:checked + div:hover {
+  background-color: #cc9933;
+} */
+
+p + p {
+  margin-top: 0 !important;
+}
+
+.otp__retry__button {
+  color: #00ac9f;
+}
+
+.otp__retry__button:hover {
+  color: #20c997;
+}
+
+/* textarea */
+
+textarea:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+textarea {
+  padding: 1rem;
+}

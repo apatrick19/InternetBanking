@@ -1,0 +1,16 @@
+.modal-body {
+  padding: 0 !important;
+}
+
+.modal-content {
+  border: 0 !important;
+  outline: 0 !important;
+}
+
+.main-modal {
+  min-width: 40%;
+}
+
+.arrow-color {
+  color: #00ac9f;
+}
